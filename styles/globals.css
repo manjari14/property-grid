@@ -1,0 +1,207 @@
+.menu-bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: skyblue;
+  font-weight: 700;
+  text-align: center;
+    display: block;
+    padding-top: 12px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    display: inline-flex;
+    width: 100%;
+    float: right;
+    
+}
+.SearchBarContainer{
+  
+  padding: 1rem;
+  display: grid;
+  justify-content: center;
+
+  
+  width: 600px;
+  padding-left: 100px;
+}
+.CustomSearchBar{
+  display: inline-flex;
+}
+.input{
+  width: 100%;
+  height: 100%;
+  border-left-width: 0em;
+  
+ 
+ border-left-color: white ;
+ border-right-color: white;
+  outline: none;
+  border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+  
+  font-family: sans-serif;
+  box-sizing: border-box;
+  transition-duration: 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s;
+    transition-property: border-color, box-shadow;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(228, 228, 228);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    
+
+}
+.icon{
+  width: 50px;
+  height: 45px;
+  border-top-right-radius: 0.5rem;
+  background-color: white;
+  border-bottom-right-radius: 0.5rem;
+}
+.img{
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 30px;
+  
+}
+.li1{
+  margin-left: 500px;
+  padding-top: 10px;
+}
+.src{
+  width: 120px;
+  height: 40px;
+  background-color: skyblue;
+  
+}
+.li2{
+  margin-left: 50px;
+  padding-top: 10px;
+  color: white;
+}
+.Nav-Container{
+  display: flexbox;
+  
+}
+.li3{
+  color: white;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.Head-Container{
+  background-image: url(https://admin.housen.ca/storage/banner_webp/62e289fd4ceb9.webp);
+  size: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Body-Container{
+  padding-top: 200px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+}
+.text{
+  color: white;
+  padding-left: 250px;
+  padding-bottom: 40px;
+}
+.text1{
+  color: white;
+  padding-left: 100px;
+}
+.ul{
+  background-color: white;
+  width: 260px;
+  
+  margin-bottom: 100px;
+  
+}
+.Card{
+  border-radius: 3px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 500px;
+    width: 350px;
+    font-weight: 400;
+    border: 1px solid #dadbda;
+    /* border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(218, 219, 218);
+    border-right-color: rgb(218, 219, 218);
+    border-bottom-color: rgb(218, 219, 218);
+    border-left-color: rgb(218, 219, 218);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial; */
+    position: relative;
+    box-sizing: border-box;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+  transition: 0.3s;
+  text-align: center;
+    
+}
+/* .grid-container{
+  display: grid;
+  grid-auto-rows: auto;
+   grid-gap: 1rem;
+   column-gap: 10px;
+  row-gap: 50px;
+  padding-left: 50px;
+  margin-top: 10px;
+  grid-template-columns: repeat(3, 1fr);
+ 
+
+} */
+/* .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  border-color: black;
+  
+} */
+.url{
+  height: 250px;
+  width: 360px;
+}
+@media (min-width: 900px) {
+  .Card { grid-template-columns: repeat(3, 1fr); }
+}
+.Container{
+
+  display: grid;
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  column-gap: 10px;
+ row-gap: 40px;
+ padding-left: 50px;
+ margin-top: 50px;
+ grid-template-columns: repeat(3, 1fr);
+
+}
+.Row{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+}
